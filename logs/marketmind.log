@@ -1,0 +1,85 @@
+2025-03-18 18:45:06,228 - marketmind.main - INFO - Starting MarketMind for symbol: MSFT
+2025-03-18 18:45:06,228 - marketmind.main - INFO - Date range: 2023-01-01 to 2025-03-18
+2025-03-18 18:45:06,228 - marketmind.main - INFO - Fetching stock data...
+2025-03-18 18:45:06,228 - marketmind.utils.database - INFO - Configured SQLite database at: /Users/vedant/.marketmind/data/market_mind.db
+2025-03-18 18:45:06,228 - marketmind.data_acquisition.stock_data - INFO - Yahoo Finance not available, falling back to Alpha Vantage
+2025-03-18 18:45:06,228 - marketmind.data_acquisition.stock_data - WARNING - Stock watchlist is empty. Add stocks to your config file.
+2025-03-18 18:45:06,228 - marketmind.data_acquisition.stock_data - INFO - Fetching 1d stock data for MSFT from 2023-01-01 to 2025-03-18 using alpha_vantage
+2025-03-18 18:45:06,228 - marketmind.utils.database - INFO - Connected to SQLite database: /Users/vedant/.marketmind/data/market_mind.db
+2025-03-18 18:45:06,229 - marketmind.data_acquisition.stock_data - WARNING - Table stock_msft_1d does not exist in database
+2025-03-18 18:45:08,565 - marketmind.utils.database - INFO - Saved 553 rows to table stock_msft_1d
+2025-03-18 18:45:08,565 - marketmind.data_acquisition.stock_data - INFO - Saved 553 rows of MSFT data to database
+2025-03-18 18:45:08,565 - marketmind.data_acquisition.stock_data - INFO - Successfully fetched 553 data points for MSFT from Alpha Vantage
+2025-03-18 18:45:08,566 - marketmind.main - INFO - Fetched 553 days of stock data
+2025-03-18 18:45:08,566 - marketmind.main - WARNING - Technical indicators module not available
+2025-03-18 18:45:08,566 - marketmind.main - WARNING - News data fetcher not available
+2025-03-18 18:45:08,566 - marketmind.main - INFO - Calculating basic statistics...
+2025-03-18 18:45:08,566 - marketmind.main - INFO - Average price: 371.39
+2025-03-18 18:45:08,566 - marketmind.main - INFO - Highest price: 467.56
+2025-03-18 18:45:08,566 - marketmind.main - INFO - Lowest price: 222.31
+2025-03-18 18:45:08,567 - marketmind.main - INFO - Latest price: 383.52
+2025-03-18 18:45:08,567 - marketmind.main - INFO - Calculating returns...
+2025-03-18 18:45:08,569 - marketmind.main - INFO - Average daily return: 0.10%
+2025-03-18 18:45:08,569 - marketmind.main - INFO - Volatility (std dev of daily returns): 1.45%
+2025-03-18 18:45:08,569 - marketmind.main - INFO - Sample data:
+2025-03-18 18:45:08,569 - marketmind.main - INFO -                open      high       low   close    volume symbol
+2023-01-03  243.080  245.7500  237.4000  239.58  25740036   MSFT
+2023-01-04  232.275  232.8700  225.9600  229.10  50623394   MSFT
+2023-01-05  227.200  227.5500  221.7602  222.31  39585623   MSFT
+2023-01-06  223.000  225.7601  219.3500  224.93  43613574   MSFT
+2023-01-09  226.450  231.2366  226.4100  227.12  27369784   MSFT
+2025-03-18 18:45:08,580 - marketmind.main - INFO - MarketMind process completed successfully
+2025-03-18 18:45:36,541 - marketmind.main - INFO - Starting MarketMind for symbol: AAPL
+2025-03-18 18:45:36,541 - marketmind.main - INFO - Date range: 2023-01-01 to 2025-03-18
+2025-03-18 18:45:36,541 - marketmind.main - INFO - Fetching stock data...
+2025-03-18 18:45:36,541 - marketmind.utils.database - INFO - Configured SQLite database at: /Users/vedant/.marketmind/data/market_mind.db
+2025-03-18 18:45:36,541 - marketmind.data_acquisition.stock_data - INFO - Yahoo Finance not available, falling back to Alpha Vantage
+2025-03-18 18:45:36,541 - marketmind.data_acquisition.stock_data - WARNING - Stock watchlist is empty. Add stocks to your config file.
+2025-03-18 18:45:36,541 - marketmind.data_acquisition.stock_data - INFO - Fetching 1d stock data for AAPL from 2023-01-01 to 2025-03-18 using alpha_vantage
+2025-03-18 18:45:37,255 - marketmind.data_acquisition.stock_data - INFO - Successfully fetched 553 data points for AAPL from Alpha Vantage
+2025-03-18 18:45:37,256 - marketmind.main - INFO - Fetched 553 days of stock data
+2025-03-18 18:45:37,256 - marketmind.main - WARNING - Technical indicators module not available
+2025-03-18 18:45:37,256 - marketmind.main - WARNING - News data fetcher not available
+2025-03-18 18:45:37,256 - marketmind.main - INFO - Calculating basic statistics...
+2025-03-18 18:45:37,256 - marketmind.main - INFO - Average price: 193.99
+2025-03-18 18:45:37,256 - marketmind.main - INFO - Highest price: 259.02
+2025-03-18 18:45:37,256 - marketmind.main - INFO - Lowest price: 125.02
+2025-03-18 18:45:37,256 - marketmind.main - INFO - Latest price: 212.69
+2025-03-18 18:45:37,256 - marketmind.main - INFO - Calculating returns...
+2025-03-18 18:45:37,258 - marketmind.main - INFO - Average daily return: 0.11%
+2025-03-18 18:45:37,258 - marketmind.main - INFO - Volatility (std dev of daily returns): 1.40%
+2025-03-18 18:45:37,258 - marketmind.main - INFO - Sample data:
+2025-03-18 18:45:37,258 - marketmind.main - INFO -                open      high     low   close     volume symbol
+2023-01-03  130.280  130.9000  124.17  125.07  112117471   AAPL
+2023-01-04  126.890  128.6557  125.08  126.36   89113633   AAPL
+2023-01-05  127.130  127.7700  124.76  125.02   80962708   AAPL
+2023-01-06  126.010  130.2900  124.89  129.62   87754715   AAPL
+2023-01-09  130.465  133.4100  129.89  130.15   70790813   AAPL
+2025-03-18 18:45:37,267 - marketmind.main - INFO - MarketMind process completed successfully
+2025-03-18 18:53:04,718 - marketmind.main - INFO - Starting MarketMind for symbol: AAPL
+2025-03-18 18:53:04,719 - marketmind.main - INFO - Date range: 2023-01-01 to 2025-03-18
+2025-03-18 18:53:04,719 - marketmind.main - INFO - Fetching stock data...
+2025-03-18 18:53:04,719 - marketmind.utils.database - INFO - Configured SQLite database at: /Users/vedant/.marketmind/data/market_mind.db
+2025-03-18 18:53:04,719 - marketmind.data_acquisition.stock_data - INFO - Yahoo Finance not available, falling back to Alpha Vantage
+2025-03-18 18:53:04,719 - marketmind.data_acquisition.stock_data - WARNING - Stock watchlist is empty. Add stocks to your config file.
+2025-03-18 18:53:04,719 - marketmind.data_acquisition.stock_data - INFO - Fetching 1d stock data for AAPL from 2023-01-01 to 2025-03-18 using alpha_vantage
+2025-03-18 18:53:05,579 - marketmind.data_acquisition.stock_data - INFO - Successfully fetched 553 data points for AAPL from Alpha Vantage
+2025-03-18 18:53:05,580 - marketmind.main - INFO - Fetched 553 days of stock data
+2025-03-18 18:53:05,580 - marketmind.main - WARNING - Technical indicators module not available
+2025-03-18 18:53:05,580 - marketmind.main - WARNING - News data fetcher not available
+2025-03-18 18:53:05,580 - marketmind.main - INFO - Calculating basic statistics...
+2025-03-18 18:53:05,581 - marketmind.main - INFO - Average price: 193.99
+2025-03-18 18:53:05,581 - marketmind.main - INFO - Highest price: 259.02
+2025-03-18 18:53:05,581 - marketmind.main - INFO - Lowest price: 125.02
+2025-03-18 18:53:05,581 - marketmind.main - INFO - Latest price: 212.69
+2025-03-18 18:53:05,581 - marketmind.main - INFO - Calculating returns...
+2025-03-18 18:53:05,584 - marketmind.main - INFO - Average daily return: 0.11%
+2025-03-18 18:53:05,584 - marketmind.main - INFO - Volatility (std dev of daily returns): 1.40%
+2025-03-18 18:53:05,584 - marketmind.main - INFO - Sample data:
+2025-03-18 18:53:05,584 - marketmind.main - INFO -                open      high     low   close     volume symbol
+2023-01-03  130.280  130.9000  124.17  125.07  112117471   AAPL
+2023-01-04  126.890  128.6557  125.08  126.36   89113633   AAPL
+2023-01-05  127.130  127.7700  124.76  125.02   80962708   AAPL
+2023-01-06  126.010  130.2900  124.89  129.62   87754715   AAPL
+2023-01-09  130.465  133.4100  129.89  130.15   70790813   AAPL
+2025-03-18 18:53:05,595 - marketmind.main - INFO - MarketMind process completed successfully
