@@ -77,4 +77,4 @@ MIT
 
 ## Contributors
 
-- Your Name 
+- Vedant Agarwal 
